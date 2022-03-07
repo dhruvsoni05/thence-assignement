@@ -1,0 +1,54 @@
+.popu_container{
+    margin-left: 80px;
+}
+
+.pop_title{
+    /* font-family: Oxanium; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 130px;
+    color: #F5FBF2;
+    position: relative;
+    text-align: center;
+    z-index: 7;
+    margin-bottom: 106px;
+}
+
+.pop_circle{
+    position: absolute;
+    /* left: 0%; */
+    right: 65%;
+    top: 7.69%;
+    bottom: 7.69%;
+    border-radius: 50%;
+    background: #E03054;
+    width: 110px;
+    height: 110px;
+    z-index: -1;
+}
+.pop_likes{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    color: #C2B5C6
+}
+
+@media screen and (max-width:768px) {
+    .popu_container{
+        margin-left: 0;
+        padding: 0 16px;
+    }
+    .pop_title{
+        font-size: 36px;
+        line-height: 45px;
+        margin-bottom: 52px;
+    }
+    .pop_circle{
+        width: 84px;
+        height: 84px;
+        top: -13px;
+        right: 75%;
+    }
+}

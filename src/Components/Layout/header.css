@@ -1,0 +1,57 @@
+.main_nav{
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    /* background: #251928; */
+}
+.logo_a{
+    width: 66px;
+    height: 66px;
+    margin-left: 80px;
+    margin-top: 14px;
+  }
+.head_m_r{
+    margin-right: 153px;
+}  
+
+.head_btn{
+    background: rgba(233, 215, 167, 0.1);
+    border: 1px solid #FFCE4E;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    color: #FFCE4E;
+}
+.nav-link{
+    color: #fff;
+}
+.nav-item .active{
+    /* font-family: Work Sans; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #FFCE4E !important;
+}
+
+.nav_it_mr{
+    margin-right: 64px;
+}
+
+ion-icon {
+    color: #FFCE4E;
+  }
+
+
+@media screen and (max-width:768px){
+    .logo_a{
+        width: 48px;
+        height: 48px;
+        margin-left: 16px;
+        margin-top: 0;
+    }
+    .head_in_mt{
+        margin-top: 0;
+        margin-bottom: 11px;
+    }
+}

@@ -1,0 +1,70 @@
+.how_work{
+    padding-top: 185px;
+    padding-bottom: 104px;
+}
+
+.how_title{
+    /* font-family: Oxanium; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 130px;
+    /* identical to box height, or 203% */
+    color: #F5FBF2;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bg_eclipse{
+    background-image: url('https://res.cloudinary.com/dsj9t6adh/image/upload/v1646608179/thence/Ellipse_4_helydi.png');
+    background-repeat: no-repeat;
+    height: 106px;
+    width: 106px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.work_icons{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* .bg_eclipse::after{
+    content: url('https://res.cloudinary.com/dsj9t6adh/image/upload/v1646636052/thence/Vector_1_ymzqai.png');
+    right: 30%;
+    transform: translate(-50%, -25px);
+} */
+.line_img{
+    margin-left: 150px;
+}
+.work_text{
+    /* font-family: Work Sans; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #FFCE4E;
+    text-align: center;
+    margin-top: 32px;
+}
+
+@media screen and (max-width: 768px) {
+    .line_img{
+        transform: rotate(90deg);
+        margin: 210px auto 0;
+    }
+    .work_elem{
+        margin-bottom: 200px;
+    }
+    .work_text{
+        margin-top: 24px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .how_title{
+        font-size: 36px;
+        line-height: 45px;
+        margin-bottom: 52px;
+    }
+}

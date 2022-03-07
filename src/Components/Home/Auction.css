@@ -1,0 +1,198 @@
+.auction_container{
+    margin-left: 80px;
+/* 
+    margin-right: 15px; */
+}
+.auc_title{
+    /* font-family: Oxanium; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 130px;
+    color: #F5FBF2;
+    position: relative;
+    text-align: center;
+    z-index: 7;
+}
+
+.p_circle{
+    position: absolute;
+    /* left: 0%; */
+    right: 57%;
+    top: 7.69%;
+    bottom: 7.69%;
+    border-radius: 50%;
+    background: #8613A5;
+    width: 110px;
+    height: 110px;
+    z-index: -1;
+}
+
+.box{
+    padding: 32px;
+    background: #3D2942;
+    margin-right: 40px;
+}
+
+.artist_det{
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 36px;
+}
+
+.art_dp{
+    margin-right: 16px;
+}
+.art_des_t{
+    font-size: 28px;
+    line-height: 35px;
+    color: #F5FBF2;
+}
+.art_des_t span{
+    font-size: 20px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #BDAAC1;
+}
+
+.likes{
+    margin-left: 9px;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 35px;
+    color: #76607A;
+}
+.art_img{
+    width: 289px;
+}
+.auction_carousel{
+    margin-top: 84px;
+    margin-bottom: 84px;
+    position: relative;
+}
+
+.cur_bid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cur_bid p:nth-child(1){
+    /* font-family: Work Sans; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: #C6BFC8;
+}
+.cur_bid p:nth-child(2){
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    color: #F5FBF2
+}
+
+.carousel_Btn{
+    background: rgba(233, 215, 167, 0.1);
+    border: 1px solid #FFCE4E;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    font-weight: 500;
+    font-size: 24px;
+    width: 100%;
+    margin-top: 40px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF
+}
+
+.cur_view_btn{
+    background: transparent;
+    border: 1px solid #FFCE4E;
+    box-sizing: border-box;
+    padding: 20px 30px;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 40px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    width: 257px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prev-arrow{
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    transform: rotate(180deg);
+    position: absolute;
+    top: -13%;
+    right: 13%;
+    z-index: 5;
+}
+.next-arrow{
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    /* transform: rotate(180deg); */
+    position: absolute;
+    top: -13%;
+    right: 7%;
+    z-index: 5;
+}
+
+@media screen and (max-width:768px) {
+    .art_img{
+        width: 254px;
+    }
+    .box{
+        margin: 40px 0;
+    }
+    .auction_container{
+        margin-left: 0;
+        padding: 0 16px;
+    }
+    .auc_title{
+        font-size: 36px;
+        line-height: 45px;
+        text-align: center;
+    }
+    .p_circle{
+        top: -63.31%;
+    }
+    .art_des_t{
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .art_des_t span{
+        font-size: 14px;
+        line-height: 35px;
+    }
+    .likes{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .cur_bid p:nth-child(1){
+        font-size: 20px;
+line-height: 35px;
+    }
+    .cur_bid p:nth-child(2){
+        font-size: 24px;
+line-height: 35px;
+    }
+    .carousel_Btn{
+        font-size: 20px;
+line-height: 35px;
+    }
+    .auction_carousel{
+        margin-bottom: 0;
+    }
+    .cur_view_btn{
+        margin-bottom: 60px;
+        margin: 0 auto 60px;
+    }
+}

@@ -1,0 +1,108 @@
+.creator_container{
+    padding: 184px 0 80px;
+
+}
+.creator_boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.create_b{
+    padding: 30px;
+    background: #302034;
+    box-shadow: inset 2px 0px 0px #E03054;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+}
+
+.crt_det{
+    display: flex;
+    align-items: center;
+    /* margin-top: 32px; */
+    /* margin-bottom: 36px; */
+    justify-content: space-evenly;
+}
+.crt_des_t{
+    font-size: 28px;
+    line-height: 35px;
+    color: #F5FBF2;
+}
+.crt_des_t span{
+    font-size: 20px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #BDAAC1;
+}
+.crt_likes{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #F5FBF2;
+}
+.crt_likes span{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #908294;
+}
+.crt_circle{
+    position: absolute;
+    /* left: 0%; */
+    right: 60%;
+    top: 7.69%;
+    bottom: 7.69%;
+    border-radius: 50%;
+    background: #E03054;
+    width: 110px;
+    height: 110px;
+    z-index: -1;
+}
+
+
+@media screen and (max-width: 768px) {
+    .creator_boxes{
+        padding: 0 16px;
+    }
+    .creator_container{
+        padding: 56px 0;
+    }
+    .crt_des_t{
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .crt_des_t span{
+        font-size: 14px;
+        line-height: 35px;
+    }
+    .crt_likes{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .crt_likes span{
+        font-size: 16px;
+        line-height: 35px;
+    }
+    .create_b{
+        margin-bottom: 24px;
+        padding: 26px 16px;
+    }
+    .create{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .crt_circle{
+        width: 84px;
+        height: 84px;
+        top: -13px;
+        right: 65%;
+    }
+}

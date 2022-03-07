@@ -1,38 +1,290 @@
-.App {
+*,p,li,ul{
+  margin: 0;
+  padding: 0;
+}
+.main-wrapper{
+  /* background-color: #000; */
+  /* background: linear-gradient(179.78deg, #1C121F 9.98%, rgba(28, 18, 31, 0.21) 81.39%); */
+  background: #251928;
+  background-blend-mode: normal, color-dodge;
+  /* opacity: 0.55; */
+  color: #fff;
+}
+
+.yel_ball{
+  position: absolute;
+  left: 13.06%;
+  right: 72.69%;
+  top: 20.11%;
+  bottom: 77.56%;
+  background: rgba(231, 178, 38, 0.7);
+  filter: blur(450px);
+}
+
+.head_btn{
+  background: rgba(233, 215, 167, 0.1);
+  border: 1px solid #FFCE4E;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  color: #FFCE4E;
+  min-width: 164px;
+  /* margin-top: 77px;
+  margin-bottom: 121px; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.head_btn_full{
+  background: #FFCE4E;
+  border: 1px solid #FFCE4E;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  margin-right: 48px;
+  min-width: 164px;
+  /* margin-top: 77px;
+  margin-bottom: 121px; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.yel_text{
+  color: #FFCE4E;
+}
+
+.banner_start{
+  padding-top: 274px;
+  position: relative;
+}
+
+/* Balls css */
+.y_ball{
+  position: absolute;
+  left: 0.04%;
+  right: 80.21%;
+  top: 70.54%;
+  bottom: 12.46%;
+  background: rgba(231, 178, 38, 0.8);
+  filter: blur(450px);
+  transform: rotate(-4.93deg);
+  z-index: 10 !important;
+  width:402px;
+  height: 208px;
+
+}
+.pu_ball{
+  position: absolute;
+  left: 59.34%;
+  right: 25.33%;
+  top: 68.93%;
+  bottom: 5.57%;
+  background: #BB00AB;
+  filter: blur(350px);
+  transform: rotate(-4.93deg);
+  width:402px;
+  height: 208px;
+}
+
+/* banner component CSS */
+.ban_img{
+  /* width: 579px; */
+  height: 536px;
+  position: relative;
+}
+.img_wh_box{
+  background-color: #ffffff;
+  color: #000;
+  /* width: 579px; */
+  width: 100%;
+  height: 142px;
+  padding: 35px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.glass_effect{
+  padding-top: 274px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: auto;
+  background: rgba(79, 70, 78, 0.45);
+  backdrop-filter: blur(30px);
+}
+.cust-title{
+  /* font-family: Oxanium; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 85px;
+  line-height: 130px;
+  /* or 153% */
+  color: #F5FBF2;
+}
+.stats_box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 120px;
+  margin-bottom: 200px;
+}
+
+.stats_title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 62px;
+  line-height: 78px;
+  color: #F5FBF2;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.stats_des{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
+  color: #9B9E9A;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.left{
+  margin-right: 20px;
+}
+.right{
+  margin-left: 50px;
+  z-index: 3;
+}
+.in_right{
+  /* height: 780px; */
+  max-width: 415px;
+}
+.art_txt{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: 0.07em
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.artist_id{
+  font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 35px;
+/* identical to box height, or 148% */
+
+
+color: #594D5E;
+}
+
+.brand_row{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  margin-bottom: 113px;
+}
+.brand_logo{
+  min-width: 139px;
+}
+.down_eclipse{
+  position: absolute;
+  left: -10%;
+  /* right: 0%; */
+  /* top: 0%; */
+  bottom: -9%;
+  border-radius: 50%;
+  z-index: 1;
+  width: 156px;
+  height: 156px;
+  background: rgba(109, 91, 114, 0.4);
+  box-shadow: 0px 14px 79px rgba(134, 19, 165, 0.1);
+  backdrop-filter: blur(40px);
+}
+.dw_arrow{
+  position: absolute;
+  top: 44%;
+  left: 40%;
+  color: #fff;
+}
+.btn_div{
+  display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.mob_only_stats{
+  display: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width:768px) {
+  .banner_start{
+    padding-top: 145px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+    .mob_align{
+      display: flex;
+      flex-direction: column;
+    }
+    .cust-title{
+      font-size: 42px;
+      line-height: 63px;
+      text-align: center;
+    }
+    .glass_effect{
+      position: relative;
+      padding: 77px 40px 10px;
+    }
+    .down_eclipse{
+      display: none;
+    }
+    .head_btn_full{
+      min-width: 155px;
+      padding: 16px 40px;
+      margin-right: 20px;
+      font-size: 18px;
+    }
+    .mob_only_stats{
+      display: flex;
+      margin-top: 51px;
+      margin-bottom: 83px;
+    }
+    .mod_d_none{
+      display: none;
+    }
+    .ban_img{
+      height: 300px;
+    }
+    .brand_row{
+      flex-wrap: wrap;
+    }
+    .art_txt{
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 0.07em;
+    }
+    .artist_id{
+      font-size: 14px;
+      line-height: 35px;
+    }
+    .img_wh_box{
+      padding: 16px 40px;
+    }
+    .img_wh_box .head_btn_full{
+      padding: 8px 24px;
+      min-width: 100px;
+      margin-left: 27px;
+    }
+    .right{
+      margin-left: 0;
+    }
+    .stats_title{
+      font-size: 36px;
+      line-height: 45px;
+    }
+    .stats_des{
+      font-size: 16px;
+      line-height: 35px;
+    }
+    .brand_logo{
+      width: 92px;
+      margin-bottom: 50px;
+    }
 }
